@@ -1,8 +1,9 @@
+import { PUBLIC_APPWRITE_ENDPOINT, PUBLIC_APPWRITE_PROJECT_ID } from '$env/static/public';
 import { Client, Avatars } from "appwrite";
 
 const client = new Client()
-    .setEndpoint('https://fra.cloud.appwrite.io/v1') // Your API Endpoint
-    .setProject('688230070011fbf10e1a'); // Your project ID
+    .setEndpoint(PUBLIC_APPWRITE_ENDPOINT)
+    .setProject(PUBLIC_APPWRITE_PROJECT_ID);
 
 const avatars = new Avatars(client);
 
