@@ -51,7 +51,7 @@
     <meta name="description" content="Generate custom QR codes with configurable options" />
 </svelte:head>
 
-<main class="container">
+<main>
     <div class="header">
         <h1>🔳 QR Code Generator</h1>
         <p>Create custom QR codes with configurable size and margin options</p>
@@ -168,17 +168,15 @@
         padding: 0;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
         background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        min-height: 100vh;
         height: auto;
         color: #333;
     }
 
-    .container {
+    main {
         max-width: 800px;
-        max-height: 100%;
-        height: auto;
         margin: 0 auto;
         padding: 3rem;
-        min-height: 100vh;
         display: flex;
         flex-direction: column;
     }
@@ -436,7 +434,7 @@
     }
 
     @media (max-width: 768px) {
-        .container {
+        main {
             padding: 2rem;
             max-width: 95vw;
         }
@@ -482,7 +480,7 @@
     }
 
     @media (max-width: 480px) {
-        .container {
+        main {
             padding: 1rem;
             max-width: 95vw;
         }
