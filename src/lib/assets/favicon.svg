@@ -5,46 +5,46 @@
   
   <!-- QR Code Pattern -->
   <!-- Top-left finder pattern -->
-  <rect x="30" y="30" width="70" height="70" fill="#002fffff"/>
+  <rect x="30" y="30" width="70" height="70" fill="#002fff"/>
   <rect x="40" y="40" width="50" height="50" fill="white"/>
-  <rect x="50" y="50" width="30" height="30" fill="#002fffff"/>
+  <rect x="50" y="50" width="30" height="30" fill="#002fff"/>
   
   <!-- Top-right finder pattern -->
-  <rect x="220" y="30" width="70" height="70" fill="#002fffff"/>
+  <rect x="220" y="30" width="70" height="70" fill="#002fff"/>
   <rect x="230" y="40" width="50" height="50" fill="white"/>
-  <rect x="240" y="50" width="30" height="30" fill="#002fffff"/>
+  <rect x="240" y="50" width="30" height="30" fill="#002fff"/>
   
   <!-- Bottom-left finder pattern -->
-  <rect x="30" y="220" width="70" height="70" fill="#002fffff"/>
+  <rect x="30" y="220" width="70" height="70" fill="#002fff"/>
   <rect x="40" y="230" width="50" height="50" fill="white"/>
-  <rect x="50" y="240" width="30" height="30" fill="#002fffff"/>
+  <rect x="50" y="240" width="30" height="30" fill="#002fff"/>
   
   <!-- Data pattern (simplified) -->
-  <rect x="120" y="50" width="20" height="20" fill="#002fffff"/>
-  <rect x="150" y="50" width="20" height="20" fill="#002fffff"/>
-  <rect x="180" y="50" width="20" height="20" fill="#002fffff"/>
+  <rect x="120" y="50" width="20" height="20" fill="#002fff"/>
+  <rect x="150" y="50" width="20" height="20" fill="#002fff"/>
+  <rect x="180" y="50" width="20" height="20" fill="#002fff"/>
   
-  <rect x="50" y="120" width="20" height="20" fill="#002fffff"/>
-  <rect x="80" y="120" width="20" height="20" fill="#002fffff"/>
-  <rect x="120" y="120" width="20" height="20" fill="#002fffff"/>
-  <rect x="150" y="120" width="20" height="20" fill="#002fffff"/>
-  <rect x="180" y="120" width="20" height="20" fill="#002fffff"/>
-  <rect x="240" y="120" width="20" height="20" fill="#002fffff"/>
-  <rect x="270" y="120" width="20" height="20" fill="#002fffff"/>
+  <rect x="50" y="120" width="20" height="20" fill="#002fff"/>
+  <rect x="80" y="120" width="20" height="20" fill="#002fff"/>
+  <rect x="120" y="120" width="20" height="20" fill="#002fff"/>
+  <rect x="150" y="120" width="20" height="20" fill="#002fff"/>
+  <rect x="180" y="120" width="20" height="20" fill="#002fff"/>
+  <rect x="240" y="120" width="20" height="20" fill="#002fff"/>
+  <rect x="270" y="120" width="20" height="20" fill="#002fff"/>
   
-  <rect x="120" y="150" width="20" height="20" fill="#002fffff"/>
-  <rect x="180" y="150" width="20" height="20" fill="#002fffff"/>
-  <rect x="240" y="150" width="20" height="20" fill="#002fffff"/>
+  <rect x="120" y="150" width="20" height="20" fill="#002fff"/>
+  <rect x="180" y="150" width="20" height="20" fill="#002fff"/>
+  <rect x="240" y="150" width="20" height="20" fill="#002fff"/>
   
-  <rect x="50" y="180" width="20" height="20" fill="#002fffff"/>
-  <rect x="120" y="180" width="20" height="20" fill="#002fffff"/>
-  <rect x="150" y="180" width="20" height="20" fill="#002fffff"/>
-  <rect x="240" y="180" width="20" height="20" fill="#002fffff"/>
-  <rect x="270" y="180" width="20" height="20" fill="#002fffff"/>
+  <rect x="50" y="180" width="20" height="20" fill="#002fff"/>
+  <rect x="120" y="180" width="20" height="20" fill="#002fff"/>
+  <rect x="150" y="180" width="20" height="20" fill="#002fff"/>
+  <rect x="240" y="180" width="20" height="20" fill="#002fff"/>
+  <rect x="270" y="180" width="20" height="20" fill="#002fff"/>
   
-  <rect x="120" y="240" width="20" height="20" fill="#002fffff"/>
-  <rect x="150" y="240" width="20" height="20" fill="#002fffff"/>
-  <rect x="180" y="240" width="20" height="20" fill="#002fffff"/>
-  <rect x="240" y="270" width="20" height="20" fill="#002fffff"/>
-  <rect x="270" y="270" width="20" height="20" fill="#002fffff"/>
+  <rect x="120" y="240" width="20" height="20" fill="#002fff"/>
+  <rect x="150" y="240" width="20" height="20" fill="#002fff"/>
+  <rect x="180" y="240" width="20" height="20" fill="#002fff"/>
+  <rect x="240" y="270" width="20" height="20" fill="#002fff"/>
+  <rect x="270" y="270" width="20" height="20" fill="#002fff"/>
 </svg>
