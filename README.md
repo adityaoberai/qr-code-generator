@@ -1,23 +1,32 @@
-# sv
+# 🔳 QR Code Generator
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+A modern, fast, and customizable QR code generator built with SvelteKit and powered by Appwrite. Generate QR codes for URLs, text, or any content with configurable size and margin options.
 
-## Creating a project
+## ✨ Features
 
-If you're seeing this, you've probably already done this step. Congrats!
+- **Fast QR Code Generation**: Instant QR code creation using Appwrite's robust backend
+- **Customizable Options**: Adjust size (1-1000px) and margin (0-10) to fit your needs
+- **Download Support**: Save generated QR codes as PNG images
+- **Responsive Design**: Works seamlessly on desktop and mobile devices
+- **Clean Interface**: Intuitive and user-friendly design
+- **Real-time Preview**: See your QR code instantly as you type
 
+## 🚀 Quick Start
+
+### Installation
+
+1. Clone the repository:
 ```sh
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
+git clone https://github.com/adityaoberai/qr-code-generator.git
+cd qr-code-generator
 ```
 
-## Developing
+2. Install dependencies:
+```sh
+npm install
+```
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
+3. Start the development server:
 ```sh
 npm run dev
 
@@ -25,7 +34,7 @@ npm run dev
 npm run dev -- --open
 ```
 
-## Building
+## 🛠️ Building for Production
 
 To create a production version of your app:
 
@@ -33,6 +42,39 @@ To create a production version of your app:
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+You can preview the production build with:
+```sh
+npm run preview
+```
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+## 🔧 Configuration
+
+The app uses Appwrite's Avatars API for QR code generation. The configuration is set in `src/lib/appwrite.js`. You can customize:
+
+- **Size**: QR code dimensions (1-1000 pixels)
+- **Margin**: White border around the QR code (0-10)
+- **Content**: Any text, URL, or data you want to encode
+
+## 📱 Usage
+
+1. **Enter Content**: Type or paste the text, URL, or data you want to encode
+2. **Customize**: Adjust the size and margin settings as needed
+3. **Generate**: Click "Generate QR Code" to create your QR code
+4. **Download**: Save the QR code as a PNG image to your device
+
+## 🛡️ Tech Stack
+
+- **Frontend**: SvelteKit
+- **Backend**: Appwrite Avatars API
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📞 Support
+
+If you have any questions or need help, please open an issue on GitHub.
