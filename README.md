@@ -9,7 +9,6 @@ A modern, fast, and customizable QR code generator built with SvelteKit and powe
 - **Download Support**: Save generated QR codes as PNG images
 - **Responsive Design**: Works seamlessly on desktop and mobile devices
 - **Clean Interface**: Intuitive and user-friendly design
-- **Real-time Preview**: See your QR code instantly as you type
 
 ## Quick Start
 
